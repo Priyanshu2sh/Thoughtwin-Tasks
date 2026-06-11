@@ -106,3 +106,21 @@ from django.shortcuts import render
 
 # git push origin --delete <branch>  (delete branch from github (remote))
 
+# git branch -m old-name new-name  (Rename a branch)
+
+# git revert HEAD   (Revert the latest commit)
+
+# git revert <commit>   (Revert a specific commit)
+
+# git revert HEAD~2   (Revert a commit further back in history)
+
+# git revert --no-edit   (Skip commit message editor)
+
+# git reset --soft <commit>   (Move HEAD to commit, keep changes staged)
+
+# git reset --mixed <commit>   (Move HEAD to commit, unstage changes (default))
+
+# git reset --hard <commit>   (Move HEAD to commit, discard all changes)
+
+# git reset <file>   (Unstage a file)
+
