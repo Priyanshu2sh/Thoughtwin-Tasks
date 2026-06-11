@@ -104,3 +104,5 @@ from django.shortcuts import render
 
 # git branch -d <branch>  (delete branch)
 
+# git push origin --delete <branch>  (delete branch from github (remote))
+
