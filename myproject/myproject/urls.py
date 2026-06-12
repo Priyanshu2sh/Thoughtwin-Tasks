@@ -18,5 +18,8 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('secretadmin/', admin.site.urls),
 ]
+admin.site.site_title = 'My App'
+admin.site.site_header = 'My Header'
+admin.site.index_title = "dsasad"
