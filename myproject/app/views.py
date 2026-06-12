@@ -124,5 +124,4 @@ from django.shortcuts import render
 
 # git reset <file>   (Unstage a file)
 
-C2
-B1
+B2
